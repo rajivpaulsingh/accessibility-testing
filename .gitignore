@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+.vscode/
+cypress/screenshots
+cypress/videos
+cypress/logs
+package-lock.json
+report
