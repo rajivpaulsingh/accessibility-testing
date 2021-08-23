@@ -18,4 +18,8 @@ describe('Todo application', () => {
     it('should only test specific elements on the page', () => {
         cy.checkA11y('.learn')
     })
+
+    it('shoud only include rules with serious and critical impacts', () => {
+        cy.checkA11y9(null, { includedImpacts: ['critical', 'serious']})
+    })
 })
